@@ -19,3 +19,11 @@ img {
 li {
   list-style: none;
 }
+/*
+コンテンツ幅を設定するための共通クラス
+*/
+.wrapper {
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+}
