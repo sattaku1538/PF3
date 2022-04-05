@@ -36,3 +36,16 @@ li {
   text-align: center;
   position: relative;
 }
+/* 疑似要素でタイトル下に下線を引く */
+.section-title::after {
+  content: "";
+  width: 100px;
+  height: 3px;
+  background-color: #333;
+  display: block;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
