@@ -49,3 +49,18 @@ li {
   right: 0;
   margin: 0 auto;
 }
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+#header {
+  height: 100px;
+  padding: 40px 0 0 50px;
+}
+#header .site-title {
+  width: 100px;
+  line-height: 1px;
+}
+#header .site-title a {
+  display: block;
+}
+
